@@ -15,6 +15,20 @@
 		902BB4451D1D022800C8553F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902BB4431D1D022800C8553F /* LaunchScreen.storyboard */; };
 		902BB4501D1D022800C8553F /* XJTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB44F1D1D022800C8553F /* XJTableViewTests.m */; };
 		902BB45B1D1D022800C8553F /* XJTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB45A1D1D022800C8553F /* XJTableViewUITests.m */; };
+		902BB4841D1D055400C8553F /* XJTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB4781D1D055400C8553F /* XJTableViewCellModel.m */; };
+		902BB4851D1D055400C8553F /* XJTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB47A1D1D055400C8553F /* XJTableViewDataModel.m */; };
+		902BB4861D1D055400C8553F /* XJTableViewHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB47C1D1D055400C8553F /* XJTableViewHeaderModel.m */; };
+		902BB4871D1D055400C8553F /* XJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB47F1D1D055400C8553F /* XJTableViewCell.m */; };
+		902BB4881D1D055400C8553F /* XJTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB4811D1D055400C8553F /* XJTableViewHeader.m */; };
+		902BB4891D1D055400C8553F /* XJTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB4831D1D055400C8553F /* XJTableViewManager.m */; };
+		902BB4971D1D088100C8553F /* WatchHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB48D1D1D088100C8553F /* WatchHistoryModel.m */; };
+		902BB4981D1D088100C8553F /* WatchLaterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB48F1D1D088100C8553F /* WatchLaterModel.m */; };
+		902BB4991D1D088100C8553F /* WatchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB4921D1D088100C8553F /* WatchHistoryCell.m */; };
+		902BB49A1D1D088100C8553F /* WatchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902BB4931D1D088100C8553F /* WatchHistoryCell.xib */; };
+		902BB49B1D1D088100C8553F /* WatchLaterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB4951D1D088100C8553F /* WatchLaterCell.m */; };
+		902BB49C1D1D088100C8553F /* WatchLaterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902BB4961D1D088100C8553F /* WatchLaterCell.xib */; };
+		902BB4A31D1D24C000C8553F /* WatchHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BB4A21D1D24C000C8553F /* WatchHeader.m */; };
+		902BB4A51D1D24D000C8553F /* WatchHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902BB4A41D1D24D000C8553F /* WatchHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,31 @@
 		902BB4561D1D022800C8553F /* XJTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		902BB45A1D1D022800C8553F /* XJTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJTableViewUITests.m; sourceTree = "<group>"; };
 		902BB45C1D1D022800C8553F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902BB4771D1D055400C8553F /* XJTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTableViewCellModel.h; sourceTree = "<group>"; };
+		902BB4781D1D055400C8553F /* XJTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTableViewCellModel.m; sourceTree = "<group>"; };
+		902BB4791D1D055400C8553F /* XJTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTableViewDataModel.h; sourceTree = "<group>"; };
+		902BB47A1D1D055400C8553F /* XJTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTableViewDataModel.m; sourceTree = "<group>"; };
+		902BB47B1D1D055400C8553F /* XJTableViewHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTableViewHeaderModel.h; sourceTree = "<group>"; };
+		902BB47C1D1D055400C8553F /* XJTableViewHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTableViewHeaderModel.m; sourceTree = "<group>"; };
+		902BB47E1D1D055400C8553F /* XJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTableViewCell.h; sourceTree = "<group>"; };
+		902BB47F1D1D055400C8553F /* XJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTableViewCell.m; sourceTree = "<group>"; };
+		902BB4801D1D055400C8553F /* XJTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTableViewHeader.h; sourceTree = "<group>"; };
+		902BB4811D1D055400C8553F /* XJTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTableViewHeader.m; sourceTree = "<group>"; };
+		902BB4821D1D055400C8553F /* XJTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTableViewManager.h; sourceTree = "<group>"; };
+		902BB4831D1D055400C8553F /* XJTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTableViewManager.m; sourceTree = "<group>"; };
+		902BB48C1D1D088100C8553F /* WatchHistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchHistoryModel.h; sourceTree = "<group>"; };
+		902BB48D1D1D088100C8553F /* WatchHistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchHistoryModel.m; sourceTree = "<group>"; };
+		902BB48E1D1D088100C8553F /* WatchLaterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchLaterModel.h; sourceTree = "<group>"; };
+		902BB48F1D1D088100C8553F /* WatchLaterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchLaterModel.m; sourceTree = "<group>"; };
+		902BB4911D1D088100C8553F /* WatchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchHistoryCell.h; sourceTree = "<group>"; };
+		902BB4921D1D088100C8553F /* WatchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchHistoryCell.m; sourceTree = "<group>"; };
+		902BB4931D1D088100C8553F /* WatchHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchHistoryCell.xib; sourceTree = "<group>"; };
+		902BB4941D1D088100C8553F /* WatchLaterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchLaterCell.h; sourceTree = "<group>"; };
+		902BB4951D1D088100C8553F /* WatchLaterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchLaterCell.m; sourceTree = "<group>"; };
+		902BB4961D1D088100C8553F /* WatchLaterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchLaterCell.xib; sourceTree = "<group>"; };
+		902BB4A11D1D24C000C8553F /* WatchHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchHeader.h; sourceTree = "<group>"; };
+		902BB4A21D1D24C000C8553F /* WatchHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchHeader.m; sourceTree = "<group>"; };
+		902BB4A41D1D24D000C8553F /* WatchHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +144,8 @@
 				902BB4391D1D022800C8553F /* AppDelegate.m */,
 				902BB43B1D1D022800C8553F /* ViewController.h */,
 				902BB43C1D1D022800C8553F /* ViewController.m */,
+				902BB48A1D1D088100C8553F /* watch */,
+				902BB4751D1D055400C8553F /* XJTableViewManager */,
 				902BB43E1D1D022800C8553F /* Main.storyboard */,
 				902BB4411D1D022800C8553F /* Assets.xcassets */,
 				902BB4431D1D022800C8553F /* LaunchScreen.storyboard */,
@@ -138,6 +179,77 @@
 				902BB45C1D1D022800C8553F /* Info.plist */,
 			);
 			path = XJTableViewUITests;
+			sourceTree = "<group>";
+		};
+		902BB4751D1D055400C8553F /* XJTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				902BB4761D1D055400C8553F /* Model */,
+				902BB47D1D1D055400C8553F /* View */,
+				902BB4821D1D055400C8553F /* XJTableViewManager.h */,
+				902BB4831D1D055400C8553F /* XJTableViewManager.m */,
+			);
+			path = XJTableViewManager;
+			sourceTree = "<group>";
+		};
+		902BB4761D1D055400C8553F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				902BB4771D1D055400C8553F /* XJTableViewCellModel.h */,
+				902BB4781D1D055400C8553F /* XJTableViewCellModel.m */,
+				902BB4791D1D055400C8553F /* XJTableViewDataModel.h */,
+				902BB47A1D1D055400C8553F /* XJTableViewDataModel.m */,
+				902BB47B1D1D055400C8553F /* XJTableViewHeaderModel.h */,
+				902BB47C1D1D055400C8553F /* XJTableViewHeaderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		902BB47D1D1D055400C8553F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				902BB47E1D1D055400C8553F /* XJTableViewCell.h */,
+				902BB47F1D1D055400C8553F /* XJTableViewCell.m */,
+				902BB4801D1D055400C8553F /* XJTableViewHeader.h */,
+				902BB4811D1D055400C8553F /* XJTableViewHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		902BB48A1D1D088100C8553F /* watch */ = {
+			isa = PBXGroup;
+			children = (
+				902BB48B1D1D088100C8553F /* Model */,
+				902BB4901D1D088100C8553F /* View */,
+			);
+			path = watch;
+			sourceTree = "<group>";
+		};
+		902BB48B1D1D088100C8553F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				902BB48C1D1D088100C8553F /* WatchHistoryModel.h */,
+				902BB48D1D1D088100C8553F /* WatchHistoryModel.m */,
+				902BB48E1D1D088100C8553F /* WatchLaterModel.h */,
+				902BB48F1D1D088100C8553F /* WatchLaterModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		902BB4901D1D088100C8553F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				902BB4911D1D088100C8553F /* WatchHistoryCell.h */,
+				902BB4921D1D088100C8553F /* WatchHistoryCell.m */,
+				902BB4931D1D088100C8553F /* WatchHistoryCell.xib */,
+				902BB4941D1D088100C8553F /* WatchLaterCell.h */,
+				902BB4951D1D088100C8553F /* WatchLaterCell.m */,
+				902BB4961D1D088100C8553F /* WatchLaterCell.xib */,
+				902BB4A11D1D24C000C8553F /* WatchHeader.h */,
+				902BB4A21D1D24C000C8553F /* WatchHeader.m */,
+				902BB4A41D1D24D000C8553F /* WatchHeader.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +355,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902BB4A51D1D24D000C8553F /* WatchHeader.xib in Resources */,
 				902BB4451D1D022800C8553F /* LaunchScreen.storyboard in Resources */,
 				902BB4421D1D022800C8553F /* Assets.xcassets in Resources */,
+				902BB49C1D1D088100C8553F /* WatchLaterCell.xib in Resources */,
+				902BB49A1D1D088100C8553F /* WatchHistoryCell.xib in Resources */,
 				902BB4401D1D022800C8553F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +385,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902BB49B1D1D088100C8553F /* WatchLaterCell.m in Sources */,
+				902BB4981D1D088100C8553F /* WatchLaterModel.m in Sources */,
+				902BB4871D1D055400C8553F /* XJTableViewCell.m in Sources */,
 				902BB43D1D1D022800C8553F /* ViewController.m in Sources */,
+				902BB4851D1D055400C8553F /* XJTableViewDataModel.m in Sources */,
 				902BB43A1D1D022800C8553F /* AppDelegate.m in Sources */,
+				902BB4A31D1D24C000C8553F /* WatchHeader.m in Sources */,
+				902BB4881D1D055400C8553F /* XJTableViewHeader.m in Sources */,
+				902BB4991D1D088100C8553F /* WatchHistoryCell.m in Sources */,
 				902BB4371D1D022800C8553F /* main.m in Sources */,
+				902BB4891D1D055400C8553F /* XJTableViewManager.m in Sources */,
+				902BB4861D1D055400C8553F /* XJTableViewHeaderModel.m in Sources */,
+				902BB4971D1D088100C8553F /* WatchHistoryModel.m in Sources */,
+				902BB4841D1D055400C8553F /* XJTableViewCellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
