@@ -142,10 +142,10 @@
 			children = (
 				902BB4381D1D022800C8553F /* AppDelegate.h */,
 				902BB4391D1D022800C8553F /* AppDelegate.m */,
+				902BB4751D1D055400C8553F /* XJTableViewManager */,
 				902BB43B1D1D022800C8553F /* ViewController.h */,
 				902BB43C1D1D022800C8553F /* ViewController.m */,
 				902BB48A1D1D088100C8553F /* watch */,
-				902BB4751D1D055400C8553F /* XJTableViewManager */,
 				902BB43E1D1D022800C8553F /* Main.storyboard */,
 				902BB4411D1D022800C8553F /* Assets.xcassets */,
 				902BB4431D1D022800C8553F /* LaunchScreen.storyboard */,

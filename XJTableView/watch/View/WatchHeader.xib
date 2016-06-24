@@ -11,20 +11,18 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzv-QJ-WDt">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzv-QJ-WDt">
                     <rect key="frame" x="15" y="12" width="290" height="20"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="20" id="9UB-Xo-eMk"/>
-                    </constraints>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="qzv-QJ-WDt" secondAttribute="trailing" constant="15" id="VbM-0g-ZY3"/>
-                <constraint firstItem="qzv-QJ-WDt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yrG-1J-uIH"/>
-                <constraint firstItem="qzv-QJ-WDt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="yxC-nJ-PP4"/>
+                <constraint firstAttribute="bottom" secondItem="qzv-QJ-WDt" secondAttribute="bottom" priority="900" constant="12" id="3p3-Tp-ez0"/>
+                <constraint firstItem="qzv-QJ-WDt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="900" constant="12" id="9mF-bH-lBk"/>
+                <constraint firstItem="qzv-QJ-WDt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" priority="900" constant="15" id="QqQ-ZB-iuf"/>
+                <constraint firstAttribute="trailing" secondItem="qzv-QJ-WDt" secondAttribute="trailing" priority="900" constant="15" id="eIn-8V-dke"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

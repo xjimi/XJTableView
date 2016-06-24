@@ -94,7 +94,13 @@
                                        modelWithSection:headerModel
                                        rows:rows];
 
-    self.tableView.data = @[dataModel, dataModel2].mutableCopy;
+    self.tableView.data = @[dataModel].mutableCopy;
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        [self.tableView insertData:@[dataModel2]];
+        
+    });
 }
 
 @end
